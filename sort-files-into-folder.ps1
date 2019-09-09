@@ -1,10 +1,9 @@
 ﻿# script for putting certain files into their own folder
+# to be called from anywhere
 
 
-$DirectoryToCreate = "RAW"    #<<< name of folder
-    #(alt) $DirectoryToCreate =  read-host "Please enter a directory name"
-$format = "RW2"     #<<< file ending to put into the folder
-    #(alt) $format =  read-host "Please enter a file ending"
+$DirectoryToCreate =  read-host "Please enter a directory name"
+$format =  read-host "Please enter a file ending"
 $search = "*." + $format  # making the final wildcard (comma seperated entries are possible too)
 
 
@@ -22,4 +21,4 @@ else {
     "Directory already existed"
 }
 
-Get-ChildItem -Filter $search -Recurse | Move-Item -Destination $dirname
+Get-ChildItem -Filter $search -Recurse | Move-Item -Destination $DirectoryToCreate
