@@ -1,4 +1,5 @@
-﻿# script for putting certain files into their own folder
+﻿#! https://github.com/runxel/powershell
+# script for putting certain files into their own folder
 # to be called from anywhere
 
 
