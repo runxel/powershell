@@ -2,7 +2,7 @@
 # script to use the exiftool on a whole folder in case you accidentally
 # enabled pre-cropping in your (DSLR) camera
 # see also
-# 
+# <https://lucasbecker.de/posts/de-aspect-your-digital-negatives>
 
 $format = "dng"  # change to cr2 or orf, if you have those RAWs instead (only those possible)
 $search = "*." + $format
