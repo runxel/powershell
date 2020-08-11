@@ -1,5 +1,5 @@
-# Put this in Export-Chocolatey.ps1 file and run it:
-# .\Export-Chocolatey.ps1 > packages.config
+# Put this in export-chocolatey-list.ps1 file and run it:
+# .\export-chocolatey-list.ps1 > packages.config
 # You can install the packages using
 # choco install packages.config -y
 ## origin: https://gist.github.com/alimbada/449ddf65b4ef9752eff3
